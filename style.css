@@ -14,6 +14,9 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: var(--back-color);
     width: 100%;
     height: 100vh;
@@ -30,6 +33,8 @@ body {
 }
 
 .container-input {
+    padding: 20px;
+    box-sizing: border-box;
     max-width: 480px;
     margin: 14px 0;
     text-align: center;
@@ -62,6 +67,8 @@ body {
 }
 
 .container-password {
+    padding: 20px;
+    box-sizing: border-box;
     max-width: 480px;
     margin: 14px 0;
     display: flex;
