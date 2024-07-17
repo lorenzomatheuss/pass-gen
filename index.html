@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="logo" src="./assets/PASSWORD GENERATOR.SVG" alt="Logo Password Generator">
+
+    <section class="container-input">
+        <span>Number of Characters: </span> <span id="value"></span><span></span>
+        <input type="range" id="slider" class="slider" min="5" max="25" value="15"/>
+
+        <button id="button" class="button-cta">Generate Password</button>
+    </section>
+
+    <section id="container-password" class="container-password hide">
+        <span class="title">Your generated password is:</span>
+        <span id="password" class="password"></span>
+        <span class="tooltip">Click on the password to copy 👆</span>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>made by <a href="https://www.linkedin.com/in/lorenzomatheuss/">@lorenzomatheuss</a></p>
+</footer>
+</html>
